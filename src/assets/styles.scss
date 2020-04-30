@@ -1,0 +1,17 @@
+@import './color.scss';
+
+html,
+body{
+  background-color: $bg;
+}
+
+.banner {
+  width: 100%;
+  padding-top: 60px;
+  padding-bottom: 30px;
+}
+
+.img-center{
+  display: block;
+  margin: 0 auto;
+}
