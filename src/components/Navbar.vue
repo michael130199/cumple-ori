@@ -60,7 +60,8 @@ export default {
   name: 'Navbar',
   data() {
     return { 
-      title: 'Feliz Cumpleaños Oriolla'
+      titlee: 'Feliz Cumpleaños Oriolla',
+      title: 'Lorem Ipsu'
     }
   }
 }
