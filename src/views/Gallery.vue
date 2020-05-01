@@ -5,6 +5,8 @@
 
       <img src="./../assets/images/Gallery-banner.png" class="img-center" alt="">
 
+      <panda-sleep></panda-sleep>
+
     </div>
 
     <div class="container">
@@ -160,9 +162,13 @@
 
 
 <script>
+import PandaSleep from './../components/PandaSleep';
 
 export default {
   name: 'Gallery',
+  components: {
+    PandaSleep
+  },
   data() {
     return {
       title: 'Galería',

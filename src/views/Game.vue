@@ -6,6 +6,8 @@
 
       <img src="./../assets/images/Games-banner.png" class="img-center" alt="">
 
+      <panda-sleep></panda-sleep>
+
     </div>
 
     <div class="container-fluid">
@@ -25,9 +27,13 @@
 </template>
 
 <script>
+import PandaSleep from './../components/PandaSleep';
 
 export default {
   name: 'Game',
+  components: {
+    PandaSleep
+  },
   data() {
     return {
       title: 'Game'

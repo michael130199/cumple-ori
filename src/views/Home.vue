@@ -5,6 +5,8 @@
 
       <img src="./../assets/images/banner-simple.png" class="img-center" alt="">
 
+      <panda-sleep></panda-sleep>
+
     </div>
 
     <div class="container-fluid">
@@ -25,9 +27,13 @@
 
 
 <script>
+import PandaSleep from './../components/PandaSleep';
 
 export default {
   name: 'Home',
+  components: {
+    PandaSleep
+  },
   data() {
     return {
       title: 'Inicio'
