@@ -20,7 +20,7 @@
 
               <div class="col-4 text-center">
                 <h5>Instrucciones</h5>
-                <p>Debe saltar con el botón space, la meta es 32 puntos.</p>
+                <p>Debe saltar con el botón space, para evitar los ostaculos, la meta es 32 puntos.</p>
                 <img class="mt-4" src="@/assets/game/js/img/zzz.gif" alt="">
               </div>
 
@@ -59,7 +59,6 @@ export default {
     let canvas = document.getElementById('canvas');
   },
   mounted() {
-
     var init = inicializar
     init.initialize(canvas)
     console.log('Abraham Rivas @abraham.r.j')
