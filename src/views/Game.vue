@@ -20,7 +20,7 @@
 
               <div class="col-4 text-center">
                 <h5>Instrucciones</h5>
-                <p>Debe saltar con el botón space, para evitar los ostaculos, la meta es 32 puntos.</p>
+                <p>Debe saltar con el botón space, para evitar los ostaculos, la meta es 32 puntos. (Debe llegar a la meta)</p>
                 <img class="mt-4" src="@/assets/game/js/img/zzz.gif" alt="">
               </div>
 
