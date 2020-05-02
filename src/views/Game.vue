@@ -20,15 +20,18 @@
 
               <div class="col-12 text-center mb-3" style="margin-top: -90px">
 
-                <h5>Instrucciones</h5>
+                <h5>Instrucciones (terminar el juego)</h5>
 
-                <p>Debe saltar con el botón space, para evitar los ostaculos, la meta es 32 puntos. (Debe llegar a la meta)</p>
+                <p>Debe saltar con el botón space, para evitar los ostaculos, la meta es 32 puntos.(credere è dubitare)</p>
 
                 <div class="img-content">
 
-                  <img src="@/assets/game/img/zzz.gif" alt="">
+                  <img src="/img/zzz.gif" alt="">
 
                 </div>
+                <!-- <div class="img-content">
+                  <img src="/pictures/1/photo (1).jpg" alt="">
+                </div>           -->
 
               </div>
 

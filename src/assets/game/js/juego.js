@@ -29,20 +29,22 @@ function loadImage () {
     imgDino2 = new Image();
     imgCatus = new Image();
 
-    imgPanda.src = 'img/personaje.jpg';
-    imgNube.src = 'img/nube.jpg';
-    imgNube2.src = 'img/nube2.jpg';
-    imgCukace.src = 'img/cupcake.jpg';
-    imgSuelo.src = 'img/suelo.jpg';
-    imgPanda2.src = 'img/panda2.png';
-    imgOso.src = 'img/gameover.jpg';
-    imgPandita.src = 'img/pandita.png';
-    imgDino.src = 'img/dino.jpg';
-    imgCumple.src = 'img/cumple.jpg';
-    imgPiano.src = 'img/piano.jpg';
-    imgBanbu.src = 'img/banbu.jpg';
-    imgDino2.src = 'img/dino2.jpg';
-    imgCatus.src = 'img/catus.png';
+    let url = '/img/'
+
+    imgPanda.src = url + 'personaje.jpg';
+    imgNube.src = url + 'nube.jpg';
+    imgNube2.src = url + 'nube2.jpg';
+    imgCukace.src = url + 'cupcake.jpg';
+    imgSuelo.src = url + 'suelo.jpg';
+    imgPanda2.src = url + 'panda2.png';
+    imgOso.src = url + 'gameover.jpg';
+    imgPandita.src = url + 'pandita.png';
+    imgDino.src = url + 'dino.jpg';
+    imgCumple.src = url + 'cumple.jpg';
+    imgPiano.src = url + 'piano.jpg';
+    imgBanbu.src = url + 'banbu.jpg';
+    imgDino2.src = url + 'dino2.jpg';
+    imgCatus.src = url + 'catus.png';
 }
 
 var ancho = 700;
