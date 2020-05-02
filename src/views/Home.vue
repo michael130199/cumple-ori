@@ -3,7 +3,7 @@
 
     <div class="bg-home banner">
 
-      <img src="./../assets/images/banner-simple.png" class="img-center" alt="">
+      <img src="./../assets/images/banner-simple (2).png" class="img-center" alt="">
       <panda-sleep></panda-sleep>
 
     </div>
@@ -13,12 +13,34 @@
       <div class="row justify-content-center">
 
         <div class="col-12">
+
           <cake></cake>
-        </div>  
+          
+        </div>
+
+        <div class="col-12 mt-5 text-center">
+            
+          <router-link class="text-dark" to="/game"><h4>Te recomendamos que entres aqui:</h4>Game</router-link>
+
+        </div>
 
       </div>
 
     </div>
+
+    <nav class="navbar navbar-light bg-bottom">
+
+      <ul class="navbar-nav ml-auto ">
+
+        <li class="nav-item">
+          
+          <p class="nav-link">No Hay un héroe como tú</p>
+
+        </li>
+
+      </ul>
+
+    </nav>
 
   </div>
 
@@ -46,6 +68,13 @@ export default {
 <style lang="scss">
 @import './../assets/color.scss';
 @import './../assets/styles.scss';
+
+.bg-bottom {
+  position: absolute;
+  bottom: 0%;
+  width: 100%;
+  background-color: $primary-1;
+}
 
 
 

@@ -2,50 +2,250 @@
 
   <div class="biography">
 
-    <div class="bg-biography banner">
+    <div class="principal">
+      <div class="bg-biography banner">
 
-      <img src="./../assets/images/Biography-banner.png" class="img-center" alt="">
+        <img src="./../assets/images/Biography-banner.png" class="img-center" alt="">
 
-      <panda-sleep></panda-sleep>
+        <panda-sleep></panda-sleep>
+
+      </div>
+
+      <div class="container">
+          <div class="row">
+            <div class="col-12">
+
+              <h3  class="large text-center text-dark my-5 py-5">Sigue bajando..... <br> Te esperan sorpresas </h3>
+
+              <a class="arrow-wrap">
+
+                <span class="arrow"></span>
+
+              </a>
+
+              <h3  class="large text-center text-dark my-5 py-5">Y no despiertes el panda <br>No seas maleducada</h3>
+
+
+            </div>
+          </div>
+        </div>
+
     </div>
-  
+
+
+    <div class="section">
+
+      <div class="oop"></div>
+
+      <div class="fixed">
+
+        <div class="row justify-content-center">
+
+          <div class="col-md-12">
+
+                
+            <h1 class="large">Oriolla Carolina Caballero Lopez</h1>
+
+            <p>Por ser una persona tan especial en la vida de las personas que te rodean...</p>
+
+          </div>
+        
+        </div>
+
+      </div>
+
+    </div>
+
     <div class="section">
       <div class="oop"></div>
+
+
       <div class="fixed">
-        <h1 class="large">Oriolla Carolina Caballero Lopez</h1>
-        <p>Por ser una persona tan especial en la vida de las personas que te rodean...</p>
+
+        <div class="row justify-content-center">
+          
+          <div class="col-md-8 pt-5">
+
+            <p>2° de Mayo nació una niña que sin imaginarlo cambiaría para bien la vida de las personas que le rodean...</p>
+
+          </div>
+
+          <div class="col-md-4">
+
+            <baby></baby>
+
+          </div>
+        
+        </div>
+
+        
+
       </div>
+
     </div>
+
     <div class="section">
-      <div class="fixed">
-        <p>2° de Mayo nació una niña que sin imaginarlo cambiaría para bien la vida de las personas que le rodean...</p>
+
+     
+      <div class="oop"></div>
+
+      <div class="p fixed">
+
+        <div class="row justify-content-center">
+          
+          <div class="col-md-4">
+
+            <div class="img-content">
+
+              <img src="../assets/images/rosa.jpg" alt="">
+
+            </div>
+            
+          </div>
+
+          <div class="col-md-8 pt-5 ">
+
+            <p>A pesar de todas las situaciones difíciles que se han presentado ha seguido adelante...</p>
+
+          </div>
+
+        </div>
+
+        
       </div>
+
     </div>
+
     <div class="section">
-      <div class="p fixed">A pesar de todas las situaciones difíciles que se han presentado ha seguido adelante...</div>
-    </div>
-    <div class="section">
+
+      <div class="oop"></div>
+
       <div class="p fixed">Una persona digna de admirar sin duda alguna y ejemplo a seguir para tus amigos...</div>
+
     </div>
+
     <div class="section">
-      <div class="p fixed">¡Gracias por siempre contagiar de felicidad a todas las personas que te rodean!</div>
-    </div>
-    <div class="section">
-      <div class="p fixed">¡Gracias por siempre entregar lo mejor de ti sin esperar algo a cambio!</div>
-    </div>
-    <div class="section">
-      <div class="p fixed">¡De algo no cabe duda y es que mereces lo mejor del universo entero!</div>
-    </div>
-    <div class="section">
-      <div class="p fixed">¡Dios te cuide y te permita cumplir todos y cada uno de tus sueños, tus machos creemos en ti, TE QUEREMOS!</div>
-    </div>
-    <div class="section" style="height:100vh !important">
+
+      <div class="oop"></div>
+
       <div class="fixed">
-        <p>De parte de todos tus seres queridos te deseamos un</p>
-        <h1 class="large">¡FELIZ CUMPLEAÑOS!</h1>
+
+        <div class="row">
+
+          <div class="col-md-4">
+
+            <panda-run></panda-run>
+
+          </div>
+
+          <div class="col-md-8 pt-5">
+            <p>
+              ¡Gracias por siempre contagiar de felicidad a todas las personas que te rodean!
+            </p>
+
+          </div>
+        </div>
+
+      </div>
+
+    </div>
+
+    <div class="section">
+      <div class="oop"></div>
+
+      <div class="p fixed">¡Gracias por siempre entregar lo mejor de ti sin esperar algo a cambio!</div>
+
+    </div>
+
+    <div class="section">
+      <div class="oop"></div>
+
+      <div class="fixed">
+
+        <div class="row">
+
+          <div class="col-md-4 pt-5">
+
+            <p>¡De algo no cabe duda y es que mereces lo mejor del universo entero!</p>
+
+          </div>
+
+          <div class="col-md-8">
+
+            <orbit></orbit>
+
+          </div>
+
+        </div>
+
+      </div>
+
+    </div>
+
+    <div class="section">
+
+      <div class="oop"></div>
+
+      <div class="fixed">
+
+        <div class="row">
+          
+          <div class="col-md-7 pt-5">
+
+            <p>¡Dios te cuide y te permita cumplir todos y cada uno de tus sueños, tus machos creemos en ti, TE QUEREMOS!</p>
+
+          </div>
+
+          <div class="col-md-5">
+
+            <div class="img-content">
+
+              <img src="../../public/pictures/3/photo (20).jpg" alt="">
+
+            </div>
+            
+          </div>
+
+        </div>
+
+      </div>
+
+    </div>
+
+    <div class="section" style="height:100vh !important">
+
+      <div class="fixed">
+
+
+        <div class="row">
+          <div class="col-md-12">
+
+            
+            <p>De parte de todos tus seres queridos te deseamos un</p>
+
+            <h1 class="large">¡FELIZ CUMPLEAÑOS!</h1>
+
+          </div>
+
+          <div class="col-md-12">
+
+            <cake></cake>
+
+          </div>
+
+          <div class="col-12 mt-5">
+            <h4>Ahora puedes ir:</h4>
+            <router-link class="text-light" to="/">Inicio</router-link> |
+            <router-link class="text-light" to="/gallery">Galería</router-link> |
+            <router-link class="text-light" to="/game">Game</router-link> |
+          </div>
+
+        </div>
+
       </div>
       
     </div>
+
   </div>
 
 </template>
@@ -53,11 +253,19 @@
 
 <script>
 import PandaSleep from './../components/PandaSleep.vue'
+import Baby from './../components/Baby.vue'
+import Cake from './../components/Cake.vue'
+import PandaRun from './../components/PandaRun.vue'
+import Orbit from './../components/Orbit.vue'
 
 export default {
   name: 'Biography',
   components: {
-    PandaSleep
+    PandaSleep,
+    Baby,
+    Cake,
+    PandaRun,
+    Orbit
   },
   data() {
     return {
@@ -72,8 +280,75 @@ export default {
 @import './../assets/color.scss';
 @import './../assets/styles.scss';
 
+html { box-sizing: border-box; }
+*, *::before, *::after { box-sizing: inherit; }
+
+.principal{
+  height: 100vh;
+  width: 100%;
+}
+
 .bg-biography{
   background: $secondary-1;
+}
+
+.arrow-wrap {
+  position:absolute;
+  z-index:1;
+  left:50%;
+  top:20vh;
+  margin-left:-5em;
+  background:$primary;
+  width:10em;
+  height:10em;
+  padding:4em 2em;
+  border-radius:50%;
+  font-size:0.5em;
+  display:block;
+  box-shadow:0px 0px 5px 0px $primary-1;
+}
+
+.arrow {
+  float:left;
+  position:relative;
+  width: 0px;
+  height: 0px;
+  border-style: solid;
+  border-width: 3em 3em 0 3em;
+  border-color: #ffffff transparent transparent transparent;
+  transform:rotate(360deg)
+}
+
+.arrow:after {
+  content:'';
+  position:absolute;
+  top:-3.2em;
+  left:-3em;
+  width: 0px;
+  height: 0px;
+  border-style: solid;
+  border-width: 3em 3em 0 3em;
+  border-color: $primary transparent transparent transparent;
+  transform:rotate(360deg)
+}
+
+
+
+
+.img-content {
+  overflow: hidden;
+  margin: 0 auto;
+  height: 190px;
+  width: 190px;
+  border-radius: 15px;
+}
+
+.img-content>img {
+
+  object-fit: cover;
+  object-position: center;
+  height: 190px;
+  width: 190px;
 }
 
 @import "https://fonts.googleapis.com/css?family=Sintony";

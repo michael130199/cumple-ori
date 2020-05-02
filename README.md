@@ -43,8 +43,6 @@ https://codepen.io/kylewetton/pen/RqoYPg
 
 
 
-https://codepen.io/kylewetton/pen/RqoYPg
-
 https://codepen.io/ainalem/pen/ZaQXxr
 
 

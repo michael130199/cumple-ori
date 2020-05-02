@@ -1,11 +1,11 @@
 <template>
   <div class="container-cake py-3">
 
-    <h3 class="text-center">Toca tu regalo</h3>
+    <h3 class="text-center" style="font-family: 'Sintony', sans-serif">Abre el regalo...</h3>
     <section class="wrap">
         <section class="gift">
-            <div class="giftcard" style="font-size: 9px">
-                Alexey Rojas, Angelo Roja, Diego Rojas, Abraham Rivas
+            <div class="giftcard">
+                De:<br>Alexey Rojas<br>Angelo Roja<br>Diego Rojas<br>Abraham Rivas
             </div>
             <section class="gift_top">
                 <div class="ribbon_right"></div>
@@ -901,9 +901,9 @@ export default {
     background: #fff;
     box-shadow: 0px 1px 0px 1px #fee4c0;
     padding: 10px;
-    width: 90px;
-    font-size: 10px;
-    font-family: 'Source Sans Pro', sans-serif;
+    width: 130px;
+    font-size: 10px !important;
+    font-family: 'Source Sans Pro', sans-serif !important;
     color: #ff3f48;
     left: 0px;
     top: 100px;
@@ -913,6 +913,9 @@ export default {
     line-height: 26px;
     z-index: -1;
     text-align: center;
+    letter-spacing: 1px;
+    font-weight: 700;
+    text-transform: none;
     -webkit-transition: all 0.6s ease-in-out;
     transition: all 0.6s ease-in-out;
     -webkit-transition-delay: 0.5s;
@@ -920,7 +923,7 @@ export default {
 }
 .gift:hover .giftcard {
     top: -85px;
-    height: 124px;
+    height: 150px;
 }
 .one_number {
     position: absolute;

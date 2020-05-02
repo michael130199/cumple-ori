@@ -18,14 +18,24 @@
 
             <div class="row">
 
-              <div class="col-4 text-center">
+              <div class="col-12 text-center mb-3" style="margin-top: -90px">
+
                 <h5>Instrucciones</h5>
+
                 <p>Debe saltar con el botón space, para evitar los ostaculos, la meta es 32 puntos. (Debe llegar a la meta)</p>
-                <img class="mt-4" src="@/assets/game/js/img/zzz.gif" alt="">
+
+                <div class="img-content">
+
+                  <img src="@/assets/game/img/zzz.gif" alt="">
+
+                </div>
+
               </div>
 
-              <div class="col-8 text-right">
+              <div class="col-12 ">
+
                 <canvas id="canvas" width="700px" height="300px" style="border: 2px solid black"></canvas>
+
               </div>
 
             </div>
@@ -73,7 +83,23 @@ export default {
 
 
 .bg-game{
-  background: $white;
+  background: $primary-1;
+}
+
+.img-content {
+  overflow: hidden;
+  margin: 0 auto;
+  height: 220px;
+  width: 220px;
+  border-radius: 15px;
+}
+
+.img-content>img {
+  margin: 0;
+  object-fit: cover;
+  object-position: center;
+  height: 220px;
+  width: 220px;
 }
 
 .color {
