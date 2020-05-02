@@ -14,8 +14,8 @@
       <div class="row justify-content-center">
 
         <div class="col-12">
-          
-        </div>
+          <cake></cake>
+        </div>  
 
       </div>
 
@@ -27,12 +27,14 @@
 
 
 <script>
-import PandaSleep from './../components/PandaSleep';
+import PandaSleep from './../components/PandaSleep.vue';
+import Cake from './../components/Cake.vue';
 
 export default {
   name: 'Home',
   components: {
-    PandaSleep
+    PandaSleep,
+    Cake
   },
   data() {
     return {
