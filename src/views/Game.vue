@@ -14,8 +14,22 @@
       
       <div class="row justify-content-center">
 
-        <div class="col-12">
-          
+        <div class="col-12 text-center color">
+
+            <div class="row">
+
+              <div class="col-4 text-center">
+                <h5>Instrucciones</h5>
+                <p>Debe saltar con el botón space, la meta es 32 puntos.</p>
+                <img class="mt-4" src="@/assets/game/js/img/zzz.gif" alt="">
+              </div>
+
+              <div class="col-8 text-right">
+                <canvas id="canvas" width="700px" height="300px" style="border: 2px solid black"></canvas>
+              </div>
+
+            </div>
+
         </div>
 
       </div>
@@ -27,6 +41,8 @@
 </template>
 
 <script>
+
+import inicializar from '@/assets/game/js/juego.js'
 import PandaSleep from './../components/PandaSleep';
 
 export default {
@@ -36,9 +52,18 @@ export default {
   },
   data() {
     return {
-      title: 'Game'
+      title: 'Game',
     }
-  }
+  },
+  created() {
+    let canvas = document.getElementById('canvas');
+  },
+  mounted() {
+
+    var init = inicializar
+    init.initialize(canvas)
+    console.log('Abraham Rivas @abraham.r.j')
+  } 
 }
 </script>
 
@@ -49,7 +74,11 @@ export default {
 
 
 .bg-game{
-  background: $primary-1;
+  background: $white;
+}
+
+.color {
+  background: $white;
 }
 
 </style>

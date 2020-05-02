@@ -4,7 +4,7 @@
     <h3 class="text-center">Toca tu regalo</h3>
     <section class="wrap">
         <section class="gift">
-            <div class="giftcard">
+            <div class="giftcard" style="font-size: 10px">
                 Alexey Rojas, Angelo Roja, Diego Rojas, Abraham Rivas
             </div>
             <section class="gift_top">
