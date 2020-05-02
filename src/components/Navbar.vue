@@ -60,8 +60,8 @@ export default {
   name: 'Navbar',
   data() {
     return { 
-      titlee: 'Feliz Cumpleaños Oriolla',
-      title: 'Lorem Ipsu'
+      title: '¡Feliz Cumpleaños Oriolla!',
+      //title: 'Lorem Ipsu'
     }
   }
 }
@@ -92,6 +92,11 @@ export default {
 
 .bg-transparent {
   background: transparent;
+}
+
+.navbar-dark .navbar-nav .nav-link {
+    color: rgba(255, 255, 255, 0.7);
+    font-weight: bold;
 }
 
 </style>
